@@ -1,0 +1,6 @@
+1. Create a Golang public repository in your GitHub account
+2. Create a simple program that has following function
+	a. Read 2 input string and print the value
+	b. Append the string and print the value
+	c. Read 1 input integer x and print the appended string x times
+Note: one function committed as one commit
