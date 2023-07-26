@@ -15,3 +15,12 @@ func AppendString(str1, str2 string) string {
 	fmt.Println("Appended String:", appendedString)
 	return appendedString
 }
+
+func PrintStringNTimes(appendedString string) {
+	var x int
+	fmt.Println("Enter an integer:")
+	fmt.Scanln(&x)
+	for i := 0; i < x; i++ {
+		fmt.Println(appendedString)
+	}
+}
