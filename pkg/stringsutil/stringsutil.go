@@ -9,3 +9,9 @@ func ReadStrings() (str1, str2 string) {
 	fmt.Scanln(&str2)
 	return str1, str2
 }
+
+func AppendString(str1, str2 string) string {
+	appendedString := str1 + " " + str2
+	fmt.Println("Appended String:", appendedString)
+	return appendedString
+}
